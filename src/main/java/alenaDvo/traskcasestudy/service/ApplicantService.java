@@ -4,7 +4,6 @@ import alenaDvo.traskcasestudy.entity.ApplicantEntity;
 import alenaDvo.traskcasestudy.entity.ApplicantTechnologyEntity;
 import alenaDvo.traskcasestudy.entity.TechnologyEntity;
 import alenaDvo.traskcasestudy.repository.ApplicantRepository;
-import alenaDvo.traskcasestudy.repository.ApplicantTechnologyRepository;
 import alenaDvo.traskcasestudy.repository.TechnologyRepository;
 import jakarta.validation.Valid;
 import org.springframework.stereotype.Service;

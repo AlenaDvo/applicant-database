@@ -59,10 +59,6 @@ public class ApplicantDetail {
         this.technologies = technologies;
     }
 
-    public void setSkillList(List<ApplicantTechnologyDetail> applicantTechnologyDetails) {
-        this.technologies = applicantTechnologyDetails;
-    }
-
     @Override
     public String toString() {
         return "%s %s: ".formatted(firstName, surname) + technologies;

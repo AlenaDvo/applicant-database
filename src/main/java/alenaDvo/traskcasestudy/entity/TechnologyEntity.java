@@ -39,6 +39,6 @@ public class TechnologyEntity {
 
     @Override
     public String toString() {
-        return "%s %s [%d]".formatted(name, description, id);
+        return "%s - %s [%d]".formatted(name, description, id);
     }
 }
